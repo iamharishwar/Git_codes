@@ -1,0 +1,52 @@
+----------------GIT_CODES---------------------
+
+git config 
+
+git config --global user.name "FIRST_NAME LAST_NAME"
+
+git config --global user.email "MY_NAME@example.com"
+
+git config user.name                   ( Will display the name of user )
+
+git config user.email                  ( will display the mail id of user )
+
+git branch                             ( will shows the list of branches )
+
+git remote                             ( will show the list of remote connection between two repos )
+
+git init                               ( will create a new repos )
+
+git remote add origin  git@github.com:iamharishwar/HTML-codes.git
+                                      ( origin is the name of remote created between two repos )
+
+git push origin master                ( Will push the information from git bash to git hub server )
+
+git pull                              ( will pull the information from git hub servedr to git bash present working pc )
+
+git chekout <brach name to go in>     ( will change the branch )
+
+git branch -d <name of branch to delet>  ( wil delete the branch )
+
+git status                             ( will show the list of all changes done )
+
+git add .                              ( will add all the file to staging are )
+
+git commit -m " commit the change "    ( will add the file to repos )
+
+git commit -am "comment the change you made                       (will send the file repos directely)
+
+git diff                                      ( will show the changed made in file )
+
+git log                                       ( will show the changed done )
+
+git show <enter the log id to look into the changes done in file>
+
+git remote -v                               ( will show the history of remote and their connection with repos in git hub )
+
+git log --graph --pretty=oneline            ( will show the history of comments made for each commit )
+
+
+
+
+
+
