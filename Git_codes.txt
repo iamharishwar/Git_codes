@@ -12,6 +12,8 @@ git config user.email                  ( will display the mail id of user )
 
 git branch                             ( will shows the list of branches )
 
+git branch -a                          ( It will show all branches )
+
 git remote                             ( will show the list of remote connection between two repos )
 
 git init                               ( will create a new repos )
@@ -45,8 +47,9 @@ git remote -v                               ( will show the history of remote an
 
 git log --graph --pretty=oneline            ( will show the history of comments made for each commit )
 
+git merge < name of branch to be merged>    ( you should be in master brabch which is oroduction line )
 
-
+git mergetool -t vimdiff                    ( in editor opened modify in the interface openeedd below big one ) say :wq  to save and quite
 
 
 
