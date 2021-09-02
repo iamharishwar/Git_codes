@@ -51,5 +51,9 @@ git merge < name of branch to be merged>    ( you should be in master brabch whi
 
 git mergetool -t vimdiff                    ( in editor opened modify in the interface openeedd below big one ) say :wq  to save and quite
 
+git rebase is use to carry the hostory of all comments
+
+git rebase <nome de branch>              
+
 
 
