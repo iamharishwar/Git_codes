@@ -6,6 +6,8 @@ ssh user@ip
 
 ssh root@ip                            ( want to access the remote system , This is one method to use)
 
+ls -al ~/.ssh                         ( To check if ssh key is present )
+
 The other method is to use public and private key 
 
 ssh-keygen -t -rsa                     ( it will ask to store to public and private key , it will crerate public and private key , we can send public key to server to remote                                                                                                                                         machine(git hub, git lab to access)
