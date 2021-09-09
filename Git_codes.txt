@@ -1,5 +1,20 @@
 ----------------GIT_CODES---------------------
 
+It is important to create ssh key to make connection secure between server and client.
+
+ssh user@ip
+
+ssh root@ip                            ( want to access the remote system , This is one method to use)
+
+The other method is to use public and private key 
+
+ssh-keygen -t -rsa                     ( it will ask to store to public and private key , it will crerate public and private key , we can send public key to server to remote                                                                                                                                         machine(git hub, git lab to access)
+
+Private key = is for local machine
+
+Public key  =  is for Remote machine
+gpg --gen-key = it will generate public key
+
 git config 
 
 git config --global user.name "FIRST_NAME LAST_NAME"
