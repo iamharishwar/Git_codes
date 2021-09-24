@@ -46,6 +46,8 @@ git chekout <brach name to go in>     ( will change the branch )
 
 git branch -d <name of branch to delet>  ( wil delete the branch )
 
+git checkout -b <to create a new branch>   ( it will create a new branch )
+
 git status                             ( will show the list of all changes done )
 
 git add .                              ( will add all the file to staging are )
