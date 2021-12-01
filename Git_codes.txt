@@ -4,16 +4,16 @@ It is important to create ssh key to make connection secure between server and c
 
 ssh user@ip
 
-ssh root@ip                            ( want to access the remote system , This is one method to use)
+ssh root@ip                                      ( want to access the remote system , This is one method to use)
 
-ls -al ~/.ssh                         ( To check if ssh key is present )
+ls -al ~/.ssh                                     ( To check if ssh key is present )
 
 The other method is to use public and private key 
 
-ssh-keygen -t -rsa                     ( it will ask to store to public and private key , it will crerate public and private key , we can send public key to server to remote                                                                                                                                         machine(git hub, git lab to access)
+ssh-keygen -t -rsa   ( it will ask to store to public and private key , it will crerate public and private key , we can send public key to server to remote                                                                                                                                         machine(git hub, git lab to access)
 
 Private key = is for local machine
-
+  
 Public key  =  is for Remote machine
 gpg --gen-key = it will generate public key
 
@@ -23,52 +23,52 @@ git config --global user.name "FIRST_NAME LAST_NAME"
 
 git config --global user.email "MY_NAME@example.com"
 
-git config user.name                   ( Will display the name of user )
+git config user.name                                              ( Will display the name of user )
 
-git config user.email                  ( will display the mail id of user )
+git config user.email                                             ( will display the mail id of user )
 
-git branch                             ( will shows the list of branches )
+git branch                                                       ( will shows the list of branches )
+  
+git branch -a                                                     ( It will show all branches )
 
-git branch -a                          ( It will show all branches )
+git remote                                                       ( will show the list of remote connection between two repos )
 
-git remote                             ( will show the list of remote connection between two repos )
-
-git init                               ( will create a new repos )
+git init                                                         ( will create a new repos )
 
 git remote add origin  git@github.com:iamharishwar/HTML-codes.git
-                                      ( origin is the name of remote created between two repos )
+                                                                ( origin is the name of remote created between two repos )
 
-git push origin master                ( Will push the information from git bash to git hub server )
+git push origin master                                           ( Will push the information from git bash to git hub server )
 
-git pull                              ( will pull the information from git hub servedr to git bash present working pc )
+git pull                                                        ( will pull the information from git hub servedr to git bash present working pc )
 
-git chekout <brach name to go in>     ( will change the branch )
+git chekout <brach name to go in>                                ( will change the branch )
 
-git branch -d <name of branch to delet>  ( wil delete the branch )
+git branch -d <name of branch to delet>                          ( wil delete the branch )
 
-git checkout -b <to create a new branch>   ( it will create a new branch )
+git checkout -b <to create a new branch>                         ( it will create a new branch )
 
-git status                             ( will show the list of all changes done )
+git status                                                       ( will show the list of all changes done )
 
-git add .                              ( will add all the file to staging are )
+git add .                                                        ( will add all the file to staging are )
 
-git commit -m " commit the change "    ( will add the file to repos )
+git commit -m " commit the change "                              ( will add the file to repos )
 
-git commit -am "comment the change you made                       (will send the file repos directely)
+git commit -am "comment the change you made                      (will send the file repos directely)
 
-git diff                                      ( will show the changed made in file )
+git diff                                                         ( will show the changed made in file )
 
-git log                                       ( will show the changed done )
+git log                                                          ( will show the changed done )
 
 git show <enter the log id to look into the changes done in file>
 
-git remote -v                               ( will show the history of remote and their connection with repos in git hub )
+git remote -v                                                     ( will show the history of remote and their connection with repos in git hub )
 
-git log --graph --pretty=oneline            ( will show the history of comments made for each commit )
+git log --graph --pretty=oneline                                  ( will show the history of comments made for each commit )
 
-git merge < name of branch to be merged>    ( you should be in master brabch which is oroduction line )
+git merge < name of branch to be merged>                          ( you should be in master brabch which is oroduction line )
 
-git mergetool -t vimdiff                    ( in editor opened modify in the interface openeedd below big one ) say :wq  to save and quite
+git mergetool -t vimdiff                                           ( in editor opened modify in the interface openeedd below big one ) say :wq  to save and quite
 
 git rebase is use to carry the hostory of all comments
 
